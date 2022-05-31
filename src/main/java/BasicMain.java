@@ -11,7 +11,8 @@ public class BasicMain {
 
         CelebNumbers celebNumbers = new CelebNumbers();
 
-        beginAlfa.setMessage("Hello!");
+        beginAlfa.setMessage("Hello again!");
+
         System.out.println(beginAlfa.getMessage());
 
         final ArrayList<Integer> fibbosEach = celebNumbers.listOfFibonacciNumbers(20, 1000);
@@ -19,23 +20,6 @@ public class BasicMain {
 
         final ArrayList<Integer> primsEach = celebNumbers.listOfPrimNumbers(1000);
         final ArrayList<Integer> simplesEachForPrims = celebNumbers.listOfNumbers(primsEach.size()-1);
-
-        /*
-        beginAlfa.setMessage("\nSee numbers!");
-        System.out.println(beginAlfa.getMessage());
-
-        simplesEachForPrims.stream().filter(n -> n%1 == 0).forEach(System.out::println);
-
-        beginAlfa.setMessage("\nSee every prim number!");
-        System.out.println(beginAlfa.getMessage());
-
-        primsEach.stream().filter(n -> n%1 ==0).forEach(System.out::println);
-
-        beginAlfa.setMessage("\nSee every fibonacci number!");
-        System.out.println(beginAlfa.getMessage());
-
-        fibbosEach.stream().filter(n -> n%1 ==0).forEach(System.out::println);
-        */
 
         beginAlfa.setMessage("\nSee every 2nd fibo number!");
         System.out.println(beginAlfa.getMessage());
