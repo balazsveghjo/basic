@@ -2,16 +2,14 @@ import model.Alfa;
 import utils.CelebNumbers;
 
 import java.util.ArrayList;
-
 public class BasicMain {
-
     public static void main(String[] args){
 
         Alfa beginAlfa  = new Alfa();
 
         CelebNumbers celebNumbers = new CelebNumbers();
 
-        beginAlfa.setMessage("Hello again!");
+        beginAlfa.setMessage("Hello again 2!");
 
         System.out.println(beginAlfa.getMessage());
 
@@ -28,6 +26,5 @@ public class BasicMain {
         beginAlfa.setMessage("\nSee every 2nd prime number!");
         System.out.println(beginAlfa.getMessage());
         simplesEachForPrims.stream().filter(n -> n%2 == 0).forEach(n -> System.out.println(primsEach.get(n)));
-
     }
 }
