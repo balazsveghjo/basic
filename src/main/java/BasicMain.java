@@ -26,5 +26,14 @@ public class BasicMain {
         beginAlfa.setMessage("\nSee every 2nd prime number!");
         System.out.println(beginAlfa.getMessage());
         simplesEachForPrims.stream().filter(n -> n%2 == 0).forEach(n -> System.out.println(primsEach.get(n)));
+
+        beginAlfa.setMessage("\n And now ...\n See every 3rd fibo number!");
+        System.out.println(beginAlfa.getMessage());
+        simplesEachForFibbos.stream().filter(n -> n%3 == 0).forEach(n -> System.out.println(fibbosEach.get(n)));
+
+
+        beginAlfa.setMessage("\n It is now easy and quick :) ");
+        System.out.println(beginAlfa.getMessage());
+
     }
 }
