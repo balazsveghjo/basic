@@ -31,6 +31,9 @@ public class BasicMain {
         System.out.println(beginAlfa.getMessage());
         simplesEachForFibbos.stream().filter(n -> n%3 == 0).forEach(n -> System.out.println(fibbosEach.get(n)));
 
+        beginAlfa.setMessage("\n And now ...\n See each fibo number below 1000!");
+        System.out.println(beginAlfa.getMessage());
+        simplesEachForFibbos.forEach(n -> System.out.println(fibbosEach.get(n)));
 
         beginAlfa.setMessage("\n It is now easy and quick :) ");
         System.out.println(beginAlfa.getMessage());
