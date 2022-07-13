@@ -1,9 +1,21 @@
+/**
+ *  Copyright @
+ *
+ *
+ *
+ *
+ *
+*/
 import model.Alfa;
+
 import utils.CelebNumbers;
 
+import java.time.Duration;
 import java.util.ArrayList;
 public class BasicMain {
     public static void main(String[] args){
+
+        Duration oneDay = Duration.ofDays(1);
 
         Alfa beginAlfa  = new Alfa();
 
@@ -32,7 +44,7 @@ public class BasicMain {
         simplesEachForFibbos.stream().filter(n -> n%3 == 0).forEach(n -> System.out.println(fibbosEach.get(n)));
 
 
-        beginAlfa.setMessage("\n It is now easy and quick :) ");
+        beginAlfa.setMessage("\n It is now easy and quick :) " + oneDay);
         System.out.println(beginAlfa.getMessage());
 
     }

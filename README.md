@@ -1,5 +1,5 @@
 # basic
-BV train repo
+BV train repo with celeb numbers
 
 ## This is a demo java app with
 ### maven and Git
