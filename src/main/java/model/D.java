@@ -1,6 +1,8 @@
 package model;
 
-public class D {
+public class D extends Alfa{
 
-    public D(){}
+    public D(){
+        super();
+    }
 }

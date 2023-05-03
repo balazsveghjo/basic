@@ -1,7 +1,9 @@
 package model;
 
-public class Ci {
+public class Ci extends Alfa{
 
-    public Ci(){}
+    public Ci(){
+        super();
+    }
 
 }

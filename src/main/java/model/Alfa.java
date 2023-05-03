@@ -9,8 +9,13 @@ public class Alfa {
     private String[] listOfAlfas;
     private String message;
 
-    public Alfa(){}
+    public Alfa(){
+        printMessage();
+    }
 
+    public void printMessage(){
+        System.out.println(" Hi from Alfa!");
+    }
     public Alfa(int orderNumber, String name, Double value, boolean valid, String descripion, String[] listOfAlfas, String message) {
         this.orderNumber = orderNumber;
         this.name = name;

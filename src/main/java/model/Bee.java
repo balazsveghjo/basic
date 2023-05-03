@@ -1,7 +1,9 @@
 package model;
 
-public class Bee {
+public class Bee extends Alfa{
 
-    public Bee(){}
+    public Bee(){
+        super();
+    }
 
 }
