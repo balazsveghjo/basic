@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CelebNumbers {
 
     public ArrayList<Integer> listOfNumbers(int maxNumber) {
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        ArrayList<Integer> numbers = new ArrayList<>();
         int i;
         for (i = 1; i <= maxNumber; ++i) {
             numbers.add(i);
@@ -15,7 +15,7 @@ public class CelebNumbers {
     }
 
     public ArrayList<Integer> listOfPrimNumbers(int maxNumber) {
-        ArrayList<Integer> primNumbers = new ArrayList<Integer>();
+        ArrayList<Integer> primNumbers = new ArrayList<>();
 
         for (int ix = 1; ix <= maxNumber; ++ix) {
 
@@ -41,13 +41,13 @@ public class CelebNumbers {
     }
 
     public ArrayList<Integer> listOfFibonacciNumbers(int maxNumber, int maxValue) {
-        ArrayList<Integer> fiboNumbers = new ArrayList<Integer>();
+        ArrayList<Integer> fiboNumbers = new ArrayList<>();
         int n1 = 0, n2 = 1, n3, i, count = maxNumber;
 
         fiboNumbers.add(n1);
         fiboNumbers.add(n2);
 
-        for (i = 2; i < count; ++i) {
+        for (i = 2; i <= count; ++i) {
             n3 = n1 + n2;
             n1 = n2;
             n2 = n3;

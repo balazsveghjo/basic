@@ -14,7 +14,12 @@ public class Alfa {
     }
 
     public void printMessage(){
-        System.out.println(" Hi from Alfa!");
+        System.out.print(" \n\t Hi from Alfa!");
+    }
+
+
+    public void printPostMessage(){
+        System.out.print(" extended from Alfa! ");
     }
     public Alfa(int orderNumber, String name, Double value, boolean valid, String descripion, String[] listOfAlfas, String message) {
         this.orderNumber = orderNumber;
